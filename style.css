@@ -4,6 +4,22 @@
     overflow-x: hidden; 
 }
 
+.heading {
+    position: relative;
+}
+
+.heading::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("/img/backround-og.jpg");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.25;
+} 
 
 .nav-bar {
     position: sticky;
@@ -77,19 +93,3 @@
     font-size: 4.5rem;
 }
 
-/* *{
-    position: relative;
-}
-
-::before{
-    content: '';
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("/img/background-img-4.webp");
-    background-size: cover;
-    background-position: top center;
-    opacity: 0.25;
-}  */
