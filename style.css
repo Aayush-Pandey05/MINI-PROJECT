@@ -15,7 +15,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url("/img/backround-og.jpg");
+    background-image: url("./img/backround-og.jpg");
     background-size: cover;
     background-position: top center;
     opacity: 0.25;
