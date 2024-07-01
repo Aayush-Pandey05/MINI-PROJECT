@@ -1,4 +1,11 @@
- .nav-bar{
+* {
+    margin: 0px 0px 0px 0px;
+    padding: opx 0px 0px 0px;
+    overflow-x: hidden; 
+}
+
+
+.nav-bar {
     position: sticky;
     width: 100%;
     z-index: 1000;
@@ -9,15 +16,80 @@
     height: 15%;
 }
 
-.logo-img{
-    height: 4rem !important;
+ .logo-img {
+     height: 4rem !important;
+ }
+
+ /* carousel images section*/
+ .img1 {
+     height: 45rem;
+ }
+
+ .img2 {
+     height: 45rem;
+ }
+
+ .img3 {
+     height: 45rem;
+ }
+
+ .PET-thumbnail {
+     height: 15.6rem;
+ }
+
+ .hdpe-thumbnail {
+     width: 70%;
+     height: 15.6rem;
+     position: relative;
+     left: 20%;
+ }
+
+ .pvs-thumbnail {
+     height: 15.6rem;
+ }
+
+ .lpde-thumbnail {
+     height: 15.6rem;
+ }
+
+ .pp-thumbnail {
+     height: 15.6rem;
+     width: 70%;
+     position: relative;
+     left: 30%;
+ }
+
+ .ps-thumbnail {
+     height: 15.6rem;
+ }
+ .heading {
+    height: 50rem;
+    width: 100%;
+    background-color: black;
 }
 
-.nav-bar-cont{
-    position: absolute !important;
-    top: 0%;
-    display: flex !important;
-    justify-items: center !important;
-    align-items: center !important;
-    bottom: 5%;
-} 
+.heading_1 {
+    color: white;
+    position: relative;
+    left: 15%;
+    font-family: "Times New Roman", Times, serif;
+    top: 40%;
+    font-size: 4.5rem;
+}
+
+/* *{
+    position: relative;
+}
+
+::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("/img/background-img-4.webp");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.25;
+}  */

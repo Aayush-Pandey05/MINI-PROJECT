@@ -1,0 +1,117 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: opx 0px 0px 0px;
+    /* overflow-x: hidden; */
+}
+
+
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    top: 0%;
+    width: 100%;
+    opacity: 0.95;
+    height: 15%;
+}
+
+.logo-img {
+    height: 4rem !important;
+}
+
+/*hero section*/
+.heading {
+    height: 40rem;
+    width: 100%;
+    background-color: black;
+}
+
+.heading_1 {
+    color: white;
+    position: relative;
+    left: 40%;
+    font-family: "Times New Roman", Times, serif;
+    top: 37%;
+    font-size: 4.5rem;
+}
+
+/*feature section styling*/
+
+.card-1 {
+    margin-top: 7%;
+    height: auto;
+}
+
+.card-2 {
+    margin-top: 5%;
+}
+
+.card-3 {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.content-1 {
+    position: relative;
+    left: 5%;
+}
+
+.content-2 {
+    position: relative;
+    left: 20%;
+}
+
+.content-3 {
+    position: relative;
+    left: 5%;
+}
+
+/*heading section*/
+
+.heading-1 {
+    position: relative;
+    left: 7%;
+    font-size: 1.75rem;
+}
+
+.heading-2 {
+    position: relative;
+    left: 2%;
+    font-size: 1.75rem;
+}
+
+.lead {
+    text-align: justify;
+    width: 70%;
+    position: relative;
+    top: 5%;
+}
+
+.pet-img-1 {
+    height: 100%;
+    position: relative;
+    left: -5%;
+}
+
+.Para-2 {
+    position: relative;
+    right: 15%;
+}
+
+.heading-3 {
+    position: relative;
+    left: 15%;
+    font-size: 1.75rem;
+}
+
+.pet-img-2 {
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+.chemical-recycling-img{
+    width: 90%;
+    height: 90%;
+}
